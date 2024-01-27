@@ -1,0 +1,113 @@
+.main-container .image1{
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+    position: relative;
+    top:25px;
+    left:30px;
+}
+.main-container{
+    left:42vh;
+    width:176vh;
+    height:100vh;
+    overflow-x:hidden;
+}
+.header{
+    position: relative;
+    right:50px;
+    height:300px;
+    width:800px;
+    display:flex;
+    flex-direction: row;
+    padding-top:20px;
+    margin:5px;
+
+}
+.header .username{
+    position: relative;
+    top:5px;
+}
+.header .user-info{
+    position: relative;
+    left:150px;
+    top:20px;
+    font-size:1rem;
+}
+.header .user-info1 button{
+    height: 35px;
+    width:130px;
+    background-color: #EFEFEF;
+    color:black;
+    font-size: 1rem;
+    border: solid white;
+    border-radius: 10px;
+    margin-left:5px;
+}
+.header .user-info1{
+    font-size:1.5rem;
+}
+.header .user-info2{
+    font-size: 1.2rem;
+}
+.header .user-info2 span{
+    margin-right:30px;
+
+}
+.story .plus{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #Efefef;
+    margin-top:12px ;
+}
+.story .new-highlight{
+    position: relative;
+    right:400px;
+    top:20px;
+    height:80px;
+    width:80px;
+    background-color:#fafafa;
+    border-radius: 50%;
+    text-align: center;
+    padding:1px;
+    border:2px solid  rgb(214, 210, 210);
+}
+.main-container .posts-header{
+    position: relative;
+    top:50px;
+    right:5px;
+    text-align: center;
+    margin-top:5px;
+    margin-left: 10px;
+    width:950px;
+    height: 50px;
+    border-top:2px solid  rgb(214, 210, 210);
+}
+.main-container .posts span{
+    position: relative;
+    top:10px;
+    margin-left:40px;
+    font-weight: 300;
+}
+.main-container .posts-content img{
+    height:310px;
+    width:310px;
+    margin:2px;
+}
+.main-container .posts-content{
+    position: relative;
+    top:50px;
+    right: 5px;
+    height:400px;
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:10px;
+}
+.footer{
+    position: relative;
+    width:900px;
+    height:100px;
+    right:20px;
+    text-align: center;
+}
